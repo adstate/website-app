@@ -21,6 +21,10 @@ const nextConfig = {
         source: '/chat',
         destination: 'https://chat.openai.com/',
       },
+      {
+        source: '/cdn-cgi',
+        destination: 'https://chat.openai.com/',
+      },
     ];
   },
 };
