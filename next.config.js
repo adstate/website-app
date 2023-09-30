@@ -18,13 +18,13 @@ const nextConfig = {
         destination: 'https://facebook.com/',
       },
       {
-        source: '/chat',
-        destination: 'https://chat.openai.com/',
+        source: '/:path',
+        destination: 'https://chat.openai.com/:path',
       },
-      {
-        source: '/cdn-cgi',
-        destination: 'https://chat.openai.com/',
-      },
+      // {
+      //   source: '/cdn-cgi/:path*',
+      //   destination: 'https://chat.openai.com/cdn-cgi/:path*',
+      // },
     ];
   },
 };
